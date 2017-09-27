@@ -21,3 +21,30 @@
   background: darkgreen;
   color: orange;
 }
+
+.gradient {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  background: repeating-radial-gradient(rgba(255,255,255,0),red,black 30%);
+  border-width: 20px;
+  border-style: solid;
+  border-image: linear-gradient(45deg,grey,black,red);
+  border-image-slice: 1;
+}
+
+.transition {
+  height: 200px;
+  width: 200px;
+  background: green;
+  transition: background-color
+}
+
+.transition:hover {
+  transform: rotate(900);
+}
+
+.transition:active {
+  height: 400px;
+  width: 400px;
+}
