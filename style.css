@@ -140,5 +140,24 @@
 
 ul {
   list-style: armenian;
-  
+
+}
+
+#ani {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  position: relative;
+  animation-name: ani;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  color: white;
+}
+
+@keyframes ani {
+    0%   {background-color: black; left:0px;}
+    50%  {background-color: red; left:100%;}
+    100% {background-color: black; left:0px;}
 }
