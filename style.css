@@ -5,7 +5,6 @@
   border-radius: 50%;
 }
 
-
 .background-img {
   height: 240px;
   width: 240px;
@@ -14,4 +13,11 @@
   background-clip: padding-box;
   position: relative;
   padding: 50px;
+}
+
+.wrap {
+  width: 200px;
+  overflow-wrap: break-word;
+  background: darkgreen;
+  color: orange;
 }
